@@ -1,4 +1,4 @@
-.card {
+  .card {
     box-shadow: 0rem 0.125rem 1.5rem rgb(0, 0, 0 / 12%);
     background-color: white;
     border-radius: 0.25rem;
@@ -7,8 +7,7 @@
 }
 
 
-/* mobile, mobile breakpoints */
-/* Base styles for mobile devices */
+/* mobile */
 @media screen and (max-width: 768px) {
   .card {
     background-color: #fff;
@@ -30,44 +29,40 @@
   }
   
 
-  
-/* tablet, tablet breakpoints */ 
+/* tablet */ 
 @media screen and (min-width: 768px) {
-    .card-container {
+  .card-container {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
     }
   
-    .card {
+  .card {
       flex-basis: calc(50% - 1rem); /* Half width, considering margin */
       margin: 0.5rem; /* Spacing around cards */
     }
   
-    img {
+  img {
       min-height: 15.5rem;
     }
+
   }
-
-
 
 /* desktop */
 @media screen and (min-width: 1200px) {
-    .card-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+  .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
     }
 
+  .card {
+      flex-basis: calc(33.333% - 20px);
+      margin: 0.5rem;
+      }
 
+  img {
+      min-height: 16.375rem;
+      }
 
-        .card {
-           flex-basis: calc(33.333% - 20px);
-           margin: 0.5rem;
-        }
-    
-
-    img {
-        min-height: 16.375rem;
-    }
-}
+  }
