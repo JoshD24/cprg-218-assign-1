@@ -9,7 +9,8 @@
 
 /* mobile, mobile breakpoints */
 /* Base styles for mobile devices */
-.card {
+@media screen and (max-width: 768px) {
+  .card {
     background-color: #fff;
     border-radius: 0.25rem;
     box-shadow: 0rem 0.125rem 1.5rem rgb(0 0 0 / 12%);
