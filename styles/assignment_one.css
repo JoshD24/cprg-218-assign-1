@@ -6,9 +6,7 @@
     width: 24rem;
 }
 
-/* mobile, mobile breakpoints */
-/* Base styles for mobile devices */
-.card {
+/* mobile */
 @media screen and (max-width: 768px) {
   .card {
     background-color: #fff;
@@ -17,8 +15,7 @@
     width: 100%; /* Full width on mobile */
     margin-bottom: 1rem; /* Space between cards */
   }
-}
-}
+  }
   
   img {
     border-bottom: 0.25rem solid #fc0;
