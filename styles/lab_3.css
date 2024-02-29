@@ -1,0 +1,22 @@
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 1.525rem;
+
+}
+
+iframe{
+    flex: 1;
+    margin-top: 6rem;
+    height: 30rem;
+    max-width: 90%;
+}
+
+@media screen and (min-width : 1500px) {
+    iframe{
+        height: 30rem;
+        max-width: 100%;
+    }
+}
